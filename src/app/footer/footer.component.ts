@@ -58,7 +58,7 @@ private HeadingTextGreen = false;
 
 
     // this.locstor.store('footerBackground', 'dodgerblue');
-    this.footercss = this.locstor.retrieve('footerBackground');
+    this.footercss = this.locstor.retrieve('footer_background');
     console.log('selected css-->', this.footercss);
 
     switch (this.footercss) {
@@ -93,7 +93,7 @@ private HeadingTextGreen = false;
      // --------------HeaderTextStyle---------------
 
     // this.locstor.store('Header_font-style', 'header-text-monospace');
-    this.fontStyle = this.locstor.retrieve('footer_font-style');
+    this.fontStyle = this.locstor.retrieve('footer_font_style');
     console.log('selected css-->', this.fontStyle);
 
     switch (this.fontStyle) {
@@ -122,7 +122,7 @@ private HeadingTextGreen = false;
     // --------------FooterTextColor---------------
 
     // this.locstor.store('Footer-text-color', 'Footer-green' );
-    this.Footercolor = this.locstor.retrieve('Footer-text-color');
+    this.Footercolor = this.locstor.retrieve('footer_text_color');
     console.log('selected css-->', this.Footercolor);
 
     switch (this.Footercolor) {
@@ -156,7 +156,7 @@ private HeadingTextGreen = false;
     // --------------HeadingTextColor---------------
 
     // this.locstor.store('Heading-text-color', 'Heading-white' );
-    this.Headingcolor = this.locstor.retrieve('Heading-text-color');
+    this.Headingcolor = this.locstor.retrieve('Heading_text_color');
     console.log('selected Heading css-->', this.Headingcolor);
 
     switch (this.Headingcolor) {

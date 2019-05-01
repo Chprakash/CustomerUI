@@ -40,7 +40,7 @@ private headerTextmono = false;
 
   ngOnInit() {
     // this.locstor.store('theme', 'blue-Header');
-    this.Headercss = this.locstor.retrieve('theme');
+    this.Headercss = this.locstor.retrieve('header_background');
     console.log('selected css-->', this.Headercss);
 
     switch (this.Headercss) {
@@ -72,7 +72,7 @@ private headerTextmono = false;
       // --------------HeaderTextColor---------------
 
     // this.locstor.store('Header_color','Header_red' )
-    this.Headercolor = this.locstor.retrieve('Header_color');
+    this.Headercolor = this.locstor.retrieve('header_color');
     console.log('selected css-->', this.Headercss);
 
     switch (this.Headercolor) {
@@ -107,7 +107,7 @@ private headerTextmono = false;
      // --------------HeaderTextStyle---------------
 
     // this.locstor.store('Header_font-style', 'header-text-monospace');
-    this.fontStyle = this.locstor.retrieve('Header_font-style');
+    this.fontStyle = this.locstor.retrieve('Header_font_style');
     console.log('selected css-->', this.fontStyle);
 
     switch (this.fontStyle) {
